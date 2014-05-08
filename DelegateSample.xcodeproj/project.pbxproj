@@ -21,6 +21,7 @@
 		7655E485191B1DAD0092846C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7655E467191B1DAC0092846C /* UIKit.framework */; };
 		7655E48D191B1DAD0092846C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7655E48B191B1DAD0092846C /* InfoPlist.strings */; };
 		7655E48F191B1DAD0092846C /* DelegateSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7655E48E191B1DAD0092846C /* DelegateSampleTests.m */; };
+		7655E49A191B1DC60092846C /* SampleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7655E499191B1DC60092846C /* SampleObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7655E48A191B1DAD0092846C /* DelegateSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DelegateSampleTests-Info.plist"; sourceTree = "<group>"; };
 		7655E48C191B1DAD0092846C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7655E48E191B1DAD0092846C /* DelegateSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateSampleTests.m; sourceTree = "<group>"; };
+		7655E498191B1DC60092846C /* SampleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleObject.h; sourceTree = "<group>"; };
+		7655E499191B1DC60092846C /* SampleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				7655E475191B1DAC0092846C /* Main.storyboard */,
 				7655E478191B1DAC0092846C /* ViewController.h */,
 				7655E479191B1DAC0092846C /* ViewController.m */,
+				7655E498191B1DC60092846C /* SampleObject.h */,
+				7655E499191B1DC60092846C /* SampleObject.m */,
 				7655E47B191B1DAC0092846C /* Images.xcassets */,
 				7655E46A191B1DAC0092846C /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				7655E47A191B1DAC0092846C /* ViewController.m in Sources */,
 				7655E474191B1DAC0092846C /* AppDelegate.m in Sources */,
+				7655E49A191B1DC60092846C /* SampleObject.m in Sources */,
 				7655E470191B1DAC0092846C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
